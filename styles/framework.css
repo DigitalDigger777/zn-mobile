@@ -9741,7 +9741,7 @@ button.swiper-pagination-bullet {
     padding-bottom:10px;
 }
 
-.zan-thumb-layout > a > img{
+.zan-content-header > img{
     width:110px;
     max-height: 62px;
     position:absolute;
@@ -9760,31 +9760,35 @@ button.swiper-pagination-bullet {
 .zan-thumb-layout em{
     padding-left:110px;
     display:block;
-    color:#666666;
+    color:#bbbbbb;
     font-style:normal;
     line-height:25px;
 }
 
 .zan-thumb-layout .zan-block {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right:15px;
 }
 
 .zan-thumb-layout strong {
-    color: #eeeeee;
-    background-color: #d50000;
-    background: -webkit-radial-gradient(#d50000, #ef5350, #ffcdd2);
-    background: -o-radial-gradient(#d50000, #ef5350, #ffcdd2); /* For Opera 11.1 to 12.0*/
-    background: -moz-radial-gradient(#d50000, #ef5350, #ffcdd2);  /*For Firefox 3.6 to 15*/
-    background: radial-gradient(#d50000, #ef5350, #ffcdd2);  /*Standard syntax*/
+
+    /*background-color: #d50000;*/
+    /*background: -webkit-radial-gradient(#d50000, #ef5350, #ffcdd2);*/
+    /*background: -o-radial-gradient(#d50000, #ef5350, #ffcdd2); !* For Opera 11.1 to 12.0*!*/
+    /*background: -moz-radial-gradient(#d50000, #ef5350, #ffcdd2);  !*For Firefox 3.6 to 15*!*/
+    /*background: radial-gradient(#d50000, #ef5350, #ffcdd2);  !*Standard syntax*!*/
 }
 
 .zan-container {
     background-color: #eeeeee;
-    padding:10px 10px;
+    padding:15px 15px;
 }
 
-.zan-container h2{
+.zan-container h4{
     text-transform: uppercase;
+    margin-top: 10px;
+    color: #dddddd;
 }
 
 .zan-container b {
@@ -9798,9 +9802,17 @@ button.swiper-pagination-bullet {
     font-size: 17px;
 }
 
+.zan-action-button {
+    margin-bottom: 5px;
+    margin-top:20px;
+    padding-left: 10px;
+    padding-right:15px;
+}
+
 .zan-action-button a {
     display: inline-block;
     padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .zan-action-button a:last-child {
@@ -9824,11 +9836,18 @@ button.swiper-pagination-bullet {
 }
 
 .zan-container-content {
-    margin: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
     border: 1px solid #cccccc;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius: 5px;
+    -moz-box-shadow: 0px 1px 7px 0px #A3A3A3;
+    -webkit-box-shadow: 0px 1px 7px 0px #A3A3A3;
+    box-shadow: 0px 1px 7px 0px #A3A3A3;
+}
+
+.zan-container-content:last-child {
     margin-bottom: 88px;
 }
 
@@ -9843,11 +9862,19 @@ button.swiper-pagination-bullet {
 }
 
 .zan-content-header h1 {
-    background-color: #d50000;
-    background: -webkit-radial-gradient(#d50000, #ef5350, #ffcdd2);
-    background: -o-radial-gradient(#d50000, #ef5350, #ffcdd2); /* For Opera 11.1 to 12.0*/
-    background: -moz-radial-gradient(#d50000, #ef5350, #ffcdd2);  /*For Firefox 3.6 to 15*/
-    background: radial-gradient(#d50000, #ef5350, #ffcdd2);  /*Standard syntax*/
+    background: rgba(213,0,0,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 23%, rgba(248,80,50,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(213,0,0,1)), color-stop(23%, rgba(213,0,0,1)), color-stop(100%, rgba(248,80,50,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 23%, rgba(248,80,50,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 23%, rgba(248,80,50,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 23%, rgba(248,80,50,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 23%, rgba(248,80,50,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50000', endColorstr='#f85032', GradientType=1 );
+    /*background-color: #d50000;*/
+    /*background: -webkit-radial-gradient(#d50000, #ef5350, #ffcdd2);*/
+    /*background: -o-radial-gradient(#d50000, #ef5350, #ffcdd2); !* For Opera 11.1 to 12.0*!*/
+    /*background: -moz-radial-gradient(#d50000, #ef5350, #ffcdd2);  !*For Firefox 3.6 to 15*!*/
+    /*background: radial-gradient(#d50000, #ef5350, #ffcdd2);  !*Standard syntax*!*/
     text-align: center;
     color: #ffffff;
     line-height: 100px;
@@ -9857,6 +9884,9 @@ button.swiper-pagination-bullet {
 .zan-content {
     background-color: #eeeeee;
     padding-top: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .zan-qr-code {
@@ -9881,3 +9911,33 @@ button.swiper-pagination-bullet {
 .zan-content-footer .fa {
     font-size: 20px;
 }
+
+#page-content {
+    background-color: #E7E7E7;
+}
+.content {
+    padding-top: 20px;
+}
+#page-content-scroll > .content {
+    margin-bottom:0;
+}
+
+.zan-card .decoration {
+    margin-bottom:10px;
+}
+
+.zan-card .zan-content-header {
+    padding: 15px;
+}
+
+.zan-card .zan-container {
+    background: rgba(213,0,0,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(213,0,0,1)), color-stop(43%, rgba(213,0,0,1)), color-stop(100%, rgba(248,80,50,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50000', endColorstr='#f85032', GradientType=1 );
+}
+
