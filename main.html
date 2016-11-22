@@ -76,6 +76,7 @@
             </div>
         </div>
 
+
         <div class="content" id="tab-1">
             <div class="zan-thumb-layout">
                 <div class="zan-card zan-container-content">
@@ -91,8 +92,8 @@
                         </div>
                     </a>
                     <div class="zan-action-button">
-                        <a href="#"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                        <a href="#"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                        <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
+                        <a href="#" id="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
                         <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                     </div>
                     <div class="decoration"></div>
@@ -206,7 +207,34 @@
                 </div>
             </div>
         </div>
-            
+
+        <!--Dialog remove coupon-->
+        <dialog class="mdl-dialog">
+            <!--<h4 class="mdl-dialog__title">You can't have this coupon anymore!</h4>-->
+            <div class="mdl-dialog__content">
+                <p>
+                    You can't have this coupon anymore!
+                </p>
+            </div>
+            <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">OK</button>
+                <button type="button" class="mdl-button close">Cancel</button>
+            </div>
+        </dialog>
+        <script>
+            var dialog = document.querySelector('dialog');
+            var showDialogButton = document.querySelector('#show-dialog-remove-coupon');
+            if (! dialog.showModal) {
+                dialogPolyfill.registerDialog(dialog);
+            }
+            showDialogButton.addEventListener('click', function() {
+                dialog.showModal();
+            });
+            dialog.querySelector('.close').addEventListener('click', function() {
+                dialog.close();
+            });
+        </script>
+
         <div class="footer footer-light">
 
         </div>

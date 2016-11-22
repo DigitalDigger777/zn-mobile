@@ -2674,7 +2674,7 @@ ul.tabs li.active-tab{
         padding-bottom:0px;
     }
     
-    .square-thumbs a img{ border-radius:none;}
+    .square-thumbs a img{ border-radius: none;}
     .round-thumbs a img{  border-radius:300px;}
     .gallery a:nth-child(3n+1){  margin-right:1%; margin-bottom:2%; }
     .gallery a:nth-child(3n+2){  margin-left:1%; margin-right:1%; margin-bottom:2%; }
@@ -9939,5 +9939,17 @@ button.swiper-pagination-bullet {
     background: -ms-radial-gradient(center, ellipse cover, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
     background: radial-gradient(ellipse at center, rgba(213,0,0,1) 0%, rgba(213,0,0,1) 43%, rgba(248,80,50,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50000', endColorstr='#f85032', GradientType=1 );
+}
+
+dialog {
+    margin: auto !important;
+}
+
+.fl-l {
+    float: left;
+}
+.mdl-list__item .fa {
+    margin-left: 10px;
+
 }
 
