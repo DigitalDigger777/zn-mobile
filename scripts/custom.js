@@ -884,7 +884,7 @@ $(document).ready(function () {
             $('#page-content, .landing-page').addClass('fadeIn show-containers');
         }
       };
-      var smoothState = $('#page-transitions').smoothState(options).data('smoothState');
+      //var smoothState = $('#page-transitions').smoothState(options).data('smoothState');
     });
 
     $('#page-content, .landing-page').addClass('fadeIn show-containers');
