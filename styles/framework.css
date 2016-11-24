@@ -10044,7 +10044,9 @@ dialog {
 }
 
 .zan-card-1 > img {
-    width:100px;
+    width:105px;
+    padding-top: 12px;
+    padding-left: 12px;
     position: absolute;
 }
 
@@ -10093,6 +10095,8 @@ dialog {
 .zan-card-1 > .zan-wrap-content .mdl-grid {
     padding: 0;
 }
+
+.zan-card-1
 .address {
     line-height: 1.2;
     padding-top: 3px;
