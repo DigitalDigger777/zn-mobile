@@ -98,7 +98,7 @@
                             </div>
                         </a>
                         <div class="zan-action-button">
-                            <a href="#" id="show-dialog-add-coupon"><i class="fa fa-plus-square-o"></i></a>
+                            <a href="#" class="show-dialog-add-coupon"><i class="fa fa-plus-square-o"></i></a>
                         </div>
                     </div>
                     <div class="zan-card zan-container-content">
@@ -111,7 +111,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" id="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" id="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" id="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
         </dialog>
         <script>
             var dialogRemoveCoupon = document.querySelector('#dialog-remove-coupon');
-            var showDialogButton = document.querySelector('#show-dialog-remove-coupon');
+            var showDialogButton = document.querySelector('.show-dialog-remove-coupon');
             if (! dialogRemoveCoupon.showModal) {
                 dialogPolyfill.registerDialog(dialogRemoveCoupon);
             }
@@ -195,16 +195,14 @@
         </dialog>
         <script>
             var dialogAddCoupon = document.querySelector('#dialog-add-coupon');
-            var showDialogButton = document.querySelector('#show-dialog-add-coupon');
+            var showDialogButton = document.querySelector('.show-dialog-add-coupon');
             if (! dialogAddCoupon.showModal) {
                 dialogPolyfill.registerDialog(dialogAddCoupon);
             }
             showDialogButton.addEventListener('click', function() {
                 dialogAddCoupon.showModal();
             });
-            dialogAddCoupon.querySelector('.close').addEventListener('click', function() {
-                dialogAddCoupon.close();
-            });
+
         </script>
 
         <div class="footer footer-light">

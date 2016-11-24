@@ -10050,18 +10050,33 @@ dialog {
     position: absolute;
 }
 
+.zan-card-1 > a {
+    color:#1f1f1f;
+}
+
+.zan-card-1 a > img {
+    width:110px;
+    position: absolute;
+}
+
 .zan-card-1 > .zan-wrap-content {
     padding-left:116px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-.zan-card-1 > .zan-wrap-content .fa {
+.zan-card-1 a > .zan-wrap-content {
+    padding-left:120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.zan-card-1 a > .zan-wrap-content .fa {
     line-height: 24px;
     vertical-align: middle;
 }
 
-.zan-card-1 > .zan-wrap-content .fa-chevron-right {
+.zan-card-1 a > .zan-wrap-content .fa-chevron-right {
     float: right;
     padding-right:10px;
 }
@@ -10075,7 +10090,7 @@ dialog {
     margin-bottom:0;
 }
 
-.zan-card-1 > .zan-wrap-content strong {
+.zan-card-1 >.zan-wrap-content strong {
     font-size: 18px;
 }
 
