@@ -10043,3 +10043,32 @@ dialog {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d54', endColorstr='#ff7a95', GradientType=1 );
 }
 
+.zan-card-1 > img {
+    width:110px;
+    position: absolute;
+}
+
+.zan-card-1 > .zan-wrap-content {
+    padding-left:120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.zan-card-1 > .zan-wrap-content .fa {
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.zan-card-1 > .zan-wrap-content .fa-chevron-right {
+    float: right;
+    padding-right:10px;
+}
+
+.zan-card-1 .qty {
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.zan-card-1 p:last-child {
+    margin-bottom:0;
+}
