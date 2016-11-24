@@ -10044,12 +10044,12 @@ dialog {
 }
 
 .zan-card-1 > img {
-    width:110px;
+    width:100px;
     position: absolute;
 }
 
 .zan-card-1 > .zan-wrap-content {
-    padding-left:120px;
+    padding-left:116px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -10071,4 +10071,42 @@ dialog {
 
 .zan-card-1 p:last-child {
     margin-bottom:0;
+}
+
+.zan-card-1 > .zan-wrap-content strong {
+    font-size: 18px;
+}
+
+.zan-card-1 > .zan-wrap-content > p:last-child {
+    margin-top: -12px;
+}
+
+.zan-card-1 > .zan-wrap-content .mdl-cell {
+    margin: 0;
+    padding-right: 5px;
+}
+
+.zan-card-1 > .zan-wrap-content .mdl-cell div:first-child {
+    border-bottom: 1px solid #ff652d;
+}
+
+.zan-card-1 > .zan-wrap-content .mdl-grid {
+    padding: 0;
+}
+.address {
+    line-height: 1.2;
+    padding-top: 3px;
+}
+
+.zan-filter-tabs {
+    margin-bottom: 15px;
+}
+
+.zan-filter-tabs a {
+    width:50%;
+    line-height:2.2;
+}
+
+.zan-action-button .fa-plus-square-o {
+    font-size: 32px;
 }
