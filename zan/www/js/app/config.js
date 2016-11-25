@@ -3,6 +3,7 @@
  */
 
 require.config({
+    urlRoot: 'http://dev.xu/app_dev.php/',
     baseUrl: './',
     paths: {
         vendor: "./vendor",

@@ -4,7 +4,8 @@
 
 define([
     'backbone',
-    './views/ReceivedView',
+    'view/ReceivedCompositeView',
+    'collection/ReceivedCollection',
     'router/CouponRouter',
     'router/FriendRouter',
     'router/MessageRouter',
@@ -12,17 +13,30 @@ define([
     'router/ReceivedRouter',
     'router/ScanRouter',
     'router/StoreRouter'
-], function(Backbone, ReceivedView){
+], function(Backbone, ReceivedCompositeView, ReceivedCollection){
 
 
     var zan = Backbone.Marionette.Application.extend({
 
         onStart: function(options){
-            var receivedView = new ReceivedView();
+            var receivedList = new ReceivedCollection();
+
+            receivedList.fetch({
+                success: function(collection, response){
+                    console.log(collection.toJSON());
+                },
+                error: function(collection, response){
+                    console.log('Error');
+                }
+            });
+            var receivedListView = new ReceivedCompositeView({
+                collection: receivedList
+            });
 
             Backbone.history.start();
 
-            receivedView.render();
+            receivedListView.render();
+            receivedListView.renderChildren();
 
         }
     });
