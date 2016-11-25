@@ -10129,3 +10129,207 @@ dialog {
 .zan-action-button .fa-plus-square-o {
     font-size: 32px;
 }
+
+#zan-scan-screen {
+   height: 400px;
+}
+
+.follow-buttons > a{
+    margin: 0 auto;
+}
+
+.page-profile-header .zan-change-button a{
+    text-align:center;
+    margin: 0 auto;
+    color:#FFFFFF;
+    border:solid 2px rgba(255,255,255,0.5);
+    width:100px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border-radius:25px;
+    font-size:12px;
+    opacity:0.8;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+.page-profile-header .zan-change-button a:hover{
+    background-color:rgba(255,255,255,0.1);
+    opacity:1;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+.page-profile-header .zan-change-button{
+    width:240px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.zan-profile-coupons a{
+    width:25%;
+    float:left;
+    text-align:center;
+    font-size:12px;
+    color:#666666;
+    margin-bottom:30px;
+    background-color: gray;
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+.zan-profile-coupons a i{
+    display:block;
+    font-size:20px;
+    color:#1f1f1f;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.zan-profile-coupons a{
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.zan-profile-coupons a:last-child{
+    border-right:none;
+}
+
+.zan-profile-coupons a > span:first-child {
+    line-height: 0.1;
+}
+
+.zan-label {
+    margin-left: 0;
+}
+
+#zan-personal-data {
+    padding: 20px;
+}
+
+#zan-personal-data > div {
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+#zan-personal-data > div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+#zan-personal-data {
+
+}
+
+#zan-personal-data label {
+    display: inline-block;
+    margin-left: 0;
+}
+
+#zan-personal-data input {
+    background: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+#zan-gender-list {
+    display: none;
+    padding-left: 0;
+}
+
+#zan-personal-data li {
+    list-style: none;
+}
+
+#zan-gender,
+#zan-birthday{
+    height:30px;
+}
+
+.zan-content-fullscreen {
+    margin-bottom: 0;
+}
+
+.zan-contact-title > img{
+    width:40px;
+    height:40px;
+    border-radius:100px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:20px;
+    float: left;
+}
+
+.zan-contact-title > .zan-message-content {
+    width:65%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.zan-contact-title > .zan-message-content strong{
+
+    color:#1f1f1f;
+    font-size:16px;
+}
+
+.zan-contact-title > .zan-message-content em{
+    font-size:12px;
+    color:#666666;
+}
+
+.zan-message-details {
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.zan-contact-title i{
+    width:10px;
+    height:20px;
+    color:#666666;
+}
+
+.zan-message-details {
+    height: 80px;
+    position: relative;
+}
+
+.zan-message-details i {
+    position: absolute;
+    bottom: 10%;
+    right:5px;
+}
+
+.zan-message-details span {
+    position: absolute;
+    top: 10px;
+    right:5px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.zan-list-messages .decoration {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.zan-page-login .zan-page-login-logo{
+    width:125px;
+    height:100px;
+    background-image:url(../images/zan-images/logo.png);
+    background-size:125px 100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+}
+
