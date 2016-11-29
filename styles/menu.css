@@ -2066,7 +2066,7 @@ html, body {
 
 .active-footer-menu{
     height:60px;
-    background-color:#27ae60
+    background-color:#74bcf7
 }
 
 .active-footer-menu em{
@@ -2074,7 +2074,7 @@ html, body {
 }
 
 .footer-menu a:hover{
-    background-color:#27ae60;
+    background-color:#74bcf7;
     color:#FFFFFF!important;
     height:60px;
 }
