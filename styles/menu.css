@@ -120,12 +120,12 @@
 
 .header-light .header-logo{
     background-image:url(../images/header-logo.png);
-    height:17px;
-    width:90px;
-    background-size:90px 17px;
+    height:36px;
+    width:39px;
+    background-size:39px 36px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:20px;
+    margin-top:10px;
 }
 
 .header-dark .header-logo{

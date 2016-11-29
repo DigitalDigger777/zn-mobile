@@ -5924,13 +5924,13 @@ calendar*{
 
 .active-home-tab{
     color:#1f1f1f!important;
-    border-bottom:solid 3px #e74c3c!important;
+    border-bottom:solid 3px #3ca7ff!important;
     transition:all 250ms ease;
 }
 
 .home-tabs a:hover{
     color:#1f1f1f!important;
-    border-bottom:solid 3px #e74c3c!important;
+    border-bottom:solid 3px #3ca7ff!important;
     transition:all 250ms ease;
 }
 
