@@ -9795,7 +9795,7 @@ button.swiper-pagination-bullet {
 }
 
 .zan-container b {
-    color: orange;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 17px;
 }
@@ -9803,6 +9803,18 @@ button.swiper-pagination-bullet {
 .zan-container em {
     padding-left: 0;
     font-size: 17px;
+    color: #FFFFFF;
+}
+
+.zan-container em > a {
+    float: right;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.zan-container em > a .fa {
+
 }
 
 .zan-action-button {
@@ -9902,17 +9914,16 @@ button.swiper-pagination-bullet {
 }
 
 .zan-coupon-number {
-    color: #ff652d;
+    color: #1f1f1f;
 }
 
 .zan-content-footer {
-    padding: 0 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
 }
-.zan-content-footer a {
-    color: #ff652d;
-}
-.zan-content-footer .fa {
-    font-size: 20px;
+.zan-content-footer > .center-text {
+    font-size: 10px;
+    line-height: 1.2;
+    font-stretch: ultra-condensed;
 }
 
 #page-content {
@@ -10365,4 +10376,94 @@ dialog {
 
 .page-login input {
     font-size: 16px !important;
+}
+
+.active-home-tab {
+    border-bottom-color: #74bcf7 !important;
+}
+
+.zan-container-detail > b {
+    color: orange;
+}
+
+.zan-container-detail > em {
+    color: #999999;
+}
+
+.zan-title-coupon {
+    position: relative;
+}
+
+.zan-title-coupon > span {
+    color: #ffffff;
+    display: block;
+    width:100%;
+    position: absolute;
+    top:2px;
+    text-align: center;
+}
+
+.zan-list-radio li {
+    list-style-type: none;
+    margin: 7px 0 30px;
+    font-size: 18px;
+}
+
+.zan-list-radio li > a {
+    position: relative;
+    color: #666666;
+}
+
+.zan-list-radio li > a .fa {
+    position: absolute;
+    right: 0;
+    top:-5px;
+    font-size: 30px;
+}
+
+.zan-list-radio label {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.zan-radio:not(checked) {
+    position: absolute;
+    opacity:0;
+}
+
+.zan-label-radio {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.zan-radio:checked + label:after{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/zan-icon/radio.png);
+    background-size: cover;
+    z-index: 1000 !important;
+}
+
+.zan-coupon-alert-setting .container {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.zan-coupon-alert-setting .col-1,
+.zan-coupon-alert-setting .col-2 {
+    float: left;
+}
+
+.zan-coupon-alert-setting .col-1 {
+    width: 15%;
+}
+
+.zan-coupon-alert-setting .col-2 {
+    width: 85%;
 }

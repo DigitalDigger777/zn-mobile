@@ -2436,3 +2436,11 @@ html, body {
 .header-light {
     background-color: #999999;
 }
+
+.header-light {
+    background-color: #fFFFFF;
+}
+
+.header-light .header-icon-1 {
+    border-right:none;
+}
