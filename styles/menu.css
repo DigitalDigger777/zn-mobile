@@ -119,6 +119,11 @@
     text-align:center;
 }
 
+.zan-login-header .header-logo {
+    height: 54px !important;
+    width: 59px !important;
+}
+
 .header-light .header-logo{
     background-image:url(../images/header-logo.png);
     height:18px;
@@ -126,7 +131,7 @@
     background-size: cover;
     margin-left:auto;
     margin-right:auto;
-    margin-top:6px;
+    margin-top:10px;
 }
 
 .header-dark .header-logo{
@@ -2488,4 +2493,9 @@ html, body {
 
 .header-light .header-icon-1 {
     border-right:none;
+}
+
+.zan-login-header {
+    height: 80px;
+    margin-bottom: 40px!important;
 }

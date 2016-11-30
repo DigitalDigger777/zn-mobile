@@ -10485,3 +10485,7 @@ dialog {
 .zan-coupon-alert-setting .col-2 {
     width: 85%;
 }
+
+.zan-login-content {
+    padding-top: 80px;
+}
