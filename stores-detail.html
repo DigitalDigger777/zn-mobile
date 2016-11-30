@@ -63,22 +63,18 @@
         <div class="content">
             <div class="zan-card zan-card-1 zan-container-content">
                 <img class="preload-image" data-original="images/zan-images/the_loop_restaurant_logo_by_yasergrafix-d5f3q5p_PicViewer.jpg" alt="img" src="images/pictures/1t.jpg" style="display: block;">
-                <div class="zan-wrap-content">
+                <div class="zan-wrap-content center-text">
                     <strong>Le Chature Restaurant</strong>
-                    <p class="address">7957 Kings way, Burnaby <br>
-                        604.712.6741 <br>
-                        www.lechature.com
-                    </p>
-                    <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--2-col">
-                            <div>Total Coupon</div>
-                            <div>15</div>
-                        </div>
-                        <div class="mdl-cell mdl-cell--2-col">
-                            <div>Your Coupon</div>
-                            <div>3</div>
-                        </div>
+                    <p class="address">7957 Kings way, Burnaby</p>
+                    <div class="center-text">
+                        <a href="#"><img src="images/zan-icon/call.png" alt="" width="32" height="32"></a>
+                        <a href="#"><img src="images/zan-icon/link.png" alt="" width="32" height="32"></a>
                     </div>
+                    <div>
+                        <div class="float-left">Total Coupon <span>15</span></div>
+                        <div class="float-left">Your Coupon <span>3</span></div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
 
@@ -111,7 +107,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -129,7 +125,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -143,7 +139,7 @@
                         </a>
                         <div class="zan-action-button">
                             <a href="coupon-alert-setting.html"><img src="images/zan-icon/alert.png" alt="" width="36" height="36"></a>
-                            <a href="#" class="show-dialog-remove-coupon"><img src="images/zan-icon/remove.png" alt="" width="36" height="36"></a>
+                            
                             <a href="#"><img src="images/zan-icon/add-to-apple-wallet-logo.png" alt="" height="36"></a>
                         </div>
                     </div>
@@ -153,33 +149,6 @@
 
 
         </div>
-
-        <!--Dialog remove coupon-->
-        <dialog id="dialog-remove-coupon" class="mdl-dialog">
-            <!--<h4 class="mdl-dialog__title">You can't have this coupon anymore!</h4>-->
-            <div class="mdl-dialog__content">
-                <p>
-                    You can't have this coupon anymore!
-                </p>
-            </div>
-            <div class="mdl-dialog__actions">
-                <button type="button" class="mdl-button">OK</button>
-                <button type="button" class="mdl-button close">Cancel</button>
-            </div>
-        </dialog>
-        <script>
-            var dialogRemoveCoupon = document.querySelector('#dialog-remove-coupon');
-            var showDialogButton = document.querySelector('.show-dialog-remove-coupon');
-            if (! dialogRemoveCoupon.showModal) {
-                dialogPolyfill.registerDialog(dialogRemoveCoupon);
-            }
-            showDialogButton.addEventListener('click', function() {
-                dialogRemoveCoupon.showModal();
-            });
-            dialogRemoveCoupon.querySelector('.close').addEventListener('click', function() {
-                dialogRemoveCoupon.close();
-            });
-        </script>
 
         <!--Dialog add coupon-->
         <dialog id="dialog-add-coupon" class="mdl-dialog">
