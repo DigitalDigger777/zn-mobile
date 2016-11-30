@@ -89,7 +89,7 @@
                                 <li>
                                     <a href="#show-datetime-selector">Choose ...<i class="fa  fa-angle-right"></i></a>
                                     <!--<select name="" id=""></select>-->
-                                    <input type="datetime-local" name="datetime-local" id="datetime-local" style="display: none"/>
+                                    <input type="datetime-local" name="datetime-local" id="datetime-local" />
                                 </li>
                             </ul>
 
@@ -121,7 +121,7 @@
             $('[href="#show-datetime-selector"]').click(function(e){
                 e.preventDefault();
                 console.log('click');
-                $('[name="datetime-local"]').focusin();
+                $('[name="datetime-local"]').click();
             });
         });
     })(jQuery);
