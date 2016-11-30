@@ -87,7 +87,7 @@
 
                                 </li>
                                 <li>
-                                    <a href="#show-datetime-selector">Choose ...<i class="fa  fa-angle-right"></i></a>
+                                    <a href="#show-datetime-selector">Choose ...<!--<i class="fa  fa-angle-right"></i>--!></a>
                                     <!--<select name="" id=""></select>-->
                                     <input type="datetime-local" name="datetime-local" id="datetime-local" />
                                 </li>
@@ -115,16 +115,5 @@
     
 <div class="background"></div>
 </div>
-<script>
-    (function($){
-        $('document').ready(function(){
-            $('[href="#show-datetime-selector"]').click(function(e){
-                e.preventDefault();
-                console.log('click');
-                $('[name="datetime-local"]').click();
-            });
-        });
-    })(jQuery);
-</script>
 </body>
 <!--<a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Back to top</a>-->
