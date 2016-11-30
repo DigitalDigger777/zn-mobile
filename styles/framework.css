@@ -10488,7 +10488,7 @@ dialog {
 }
 
 .zan-login-content {
-    padding-top: 80px;
+    padding-top: 100px !important;
 }
 
 .zan-coupon-send .container {
