@@ -2492,6 +2492,10 @@ html, body {
     background-color: #fFFFFF;
 }
 
+.header-light a {
+    color: #FFFFFF !important;
+}
+
 .header-light .header-icon-1 {
     border-right:none;
 }

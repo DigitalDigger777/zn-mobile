@@ -10452,6 +10452,11 @@ dialog {
     text-align: center;
 }
 
+::-webkit-input-placeholder {color:#666666;}
+::-moz-placeholder          {color:#666666;}
+:-moz-placeholder           {color:#666666;}
+:-ms-input-placeholder      {color:#666666;}
+
 .zan-list-radio li {
     list-style-type: none;
     margin: 7px 0 30px;
