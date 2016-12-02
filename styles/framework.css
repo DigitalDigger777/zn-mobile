@@ -10651,3 +10651,9 @@ dialog {
     margin-bottom: 8px;
 }
 
+#zan-gender {
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
