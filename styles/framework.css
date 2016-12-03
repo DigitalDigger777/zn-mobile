@@ -10658,3 +10658,14 @@ dialog {
     appearance: none;
 }
 
+.zan-selected-time {
+    padding: 15px 15px 0;
+}
+
+.zan-selected-time p {
+    margin-bottom: 0;
+}
+
+.zan-selected-time p .fa {
+    margin-right: 15px;
+}
