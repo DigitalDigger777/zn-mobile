@@ -10090,7 +10090,12 @@ dialog {
 .zan-card-1 a > .zan-wrap-content {
     padding-left:120px;
     padding-top: 12px;
-    padding-bottom: 12px;
+    /*padding-bottom: 12px;*/
+    padding-bottom: 6px;
+}
+
+.zan-card-1 a > .zan-wrap-content p {
+    margin-bottom: 0;
 }
 
 .zan-card-1 a > .zan-wrap-content .fa {
